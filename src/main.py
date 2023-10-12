@@ -13,7 +13,7 @@ albero.insert(77)
 albero.insert(589)
 albero.insert(98)
 albero.insert(3)
-alberoarray = tree_walk()
+alberoarray = albero.tree_walk()
 print(alberoarray)
 
 '''
