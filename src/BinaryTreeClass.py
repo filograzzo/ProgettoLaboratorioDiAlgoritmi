@@ -13,7 +13,7 @@ class BinaryTree:
         self.root = None
         self.result = []
 
-    # TODO: metodi per inserìmento O(h)
+    # metodi per inserìmento O(h)
     def insert(self, key):
         y = None
         x = self.root
@@ -34,7 +34,7 @@ class BinaryTree:
         else:
             y.right = z
 
-    # TODO: metodi per cancellazione O(h)
+    # metodi per cancellazione O(h)
     def delete(self, key):  # deve ritornare un booleano per dire se ha effettivamente cancellato o non ha trovato il
         # numero da cancellare
         z = self.search(key)
